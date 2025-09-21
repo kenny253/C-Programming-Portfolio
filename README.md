@@ -61,9 +61,11 @@ Strings: My work with string manipulation and operations.
 
 
 How to Compile and Run a Project
+
 To execute these programs, you will need a C compiler like GCC installed on your computer. The code cannot be run directly on GitHub.
 
 Step 1: Get the Code
+
 First, clone the entire repository to your local machine using the following Git command in your terminal:
 
 git clone [https://github.com/kenny253/C-Programming-Portfolio.git](https://github.com/kenny253/C-Programming-Portfolio.git)
