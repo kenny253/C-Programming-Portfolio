@@ -59,4 +59,33 @@ Projects: More complex applications I've built.
 
 Strings: My work with string manipulation and operations.
 
-Thank you for your time and consideration. This portfolio represents the beginning of my journey, and I am excited to continue learning and growing as a programmer.
+
+How to Compile and Run a Project:
+To execute these programs, you will need a C compiler like GCC installed on your computer. The code cannot be run directly on GitHub.
+
+Step 1: Get the Code
+First, clone the entire repository to your local machine using the following Git command in your terminal:
+
+git clone [https://github.com/kenny253/C-Programming-Portfolio.git](https://github.com/kenny253/C-Programming-Portfolio.git)
+
+Step 2: Navigate and Compile
+Use the cd (change directory) command to navigate to the specific project folder you wish to run. Then, compile the C source file into a runnable program using GCC.
+
+cd C-Programming-Portfolio/your_project_name
+gcc your_program_name.c -o program
+
+Step 3: Run the Program
+Finally, run the new program executable that was just created.
+
+./program
+
+The program's output will appear directly in your terminal.
+
+Notes:
+
+Some programs, like "Reading the Data of a File Using IO", rely on specific data files like students.dat and hobby.dat. Make sure these are located in the same folder as the C source code.
+
+Comments within the code itself provide further details on functionality and logic.
+
+Thank you for your interest in my work.
+
