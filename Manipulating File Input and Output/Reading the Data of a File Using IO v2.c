@@ -10,8 +10,7 @@ int main(void) {
     pRead = fopen("hobby.dat", "r");   // open file for reading
 
     if (pRead == NULL) {
-        printf("File cannot be opened!\n");
-        exit(1);  // quit program if file not found
+        goto ErrorHandler;
     } else {
         printf("\nName\tHobby\n\n");
     }
@@ -20,9 +19,18 @@ int main(void) {
     while (fscanf(pRead, "%49s %49s", name, hobby) == 2) {
         printf("%s\t%s\n", name, hobby);
     }
+    exit(EXIT_SUCCESS);
+    ErrorHandler:
+        perror("The following error occured");
+        exit(EXIT_FAILURE);
 
     fclose(pRead); // always close files
     return 0;
 }
 /*To successfully run this program and not get the error message u first have to create a file on
-ur computer called hobby.dat so the program can read the information in this file */
+ur computer called hobby.dat so the program can read the information in this file
+
+Using goto is very simple: first include a label (a descriptive name) followed by a colon (:)
+above where you want your error-handling routine to run (begin). To call your error-handling
+routine (where you want to check for an error), simply use the keyword goto followed by the
+label name as demonstrated.*/

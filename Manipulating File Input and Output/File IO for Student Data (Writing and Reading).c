@@ -19,9 +19,7 @@ int main(void) {
 
     // Check if the file was successfully opened.
     if (pWrite == NULL) {
-        printf("File could not be opened!\n");
-        // Exit the program if the file can't be opened.
-        exit(1);
+       goto ErrorHandler;
     } else {
         printf("\nEnter student first name, last name, id, and gpa.\n\n");
         printf("Enter Data separated by spaces: ");
@@ -41,8 +39,7 @@ int main(void) {
 
     // Check if the file was successfully opened for reading.
     if (pRead == NULL) {
-        printf("File cannot be opened\n");
-        exit(1);
+        goto ErrorHandler;
     } else {
         printf("\nData in the students.dat file are:\n");
         printf("First name\tLast Name\tID\tGPA\n");
@@ -56,6 +53,9 @@ int main(void) {
         // Close the file to release its resources.
         fclose(pRead);
     }
-
+    exit(EXIT_SUCCESS);
+    ErrorHandler:
+        perror("The following error occured");
+        exit(EXIT_FAILURE);
     return 0;
 }
