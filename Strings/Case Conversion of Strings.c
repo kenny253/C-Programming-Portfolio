@@ -9,8 +9,8 @@ void convertU(char *);
 
 int main(void)
 {
-    char name1[] = "Michael";
-    char name2[] = "Vine";
+    char name1[] = "Kenneth";
+    char name2[] = "Ako";
 
     convertL(name1);
     convertU(name2);
