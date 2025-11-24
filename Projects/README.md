@@ -3,7 +3,7 @@
 A collection of **Command-Line Interface (CLI)** applications developed in C to demonstrate core programming concepts, including data structures, file input/output (I/O) for data persistence, basic algorithm implementation (like the Caesar Cipher), and user interaction.
 
 
-// Featured Project: Secure CLI Account Manager
+// Featured Project: CLI Secure Account Manager
 
 This project serves as the highlight of the portfolio, demonstrating robust **File I/O** and practical security concepts within a functional application.
 
