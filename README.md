@@ -29,7 +29,7 @@ This portfolio is organized into logical folders, each containing focused exampl
 
 ## Compilation and Execution
 
-All programs in this portfolio are standard C files (`.c`) and can be compiled using the GNU Compiler Collection (GCC) on most operating systems (Linux, macOS, Windows via MinGW/WSL).
+All programs in this portfolio are standard C files (`.c`) and can be compiled using the GNU Compiler Collection (GCC) on most operating systems (Linux, macOS, Windows via MinGW/WSL)..
 
 To compile any project file, navigate to the respective folder and use the following command:
 
