@@ -32,6 +32,7 @@ This version represents an improvement in modularity, portability, and robust in
 
 // Key Features of v2
 
+| DESIGN | FUNCTION |
 |------|-------------|
 | **Modular Design** | The game logic is cleanly separated into reusable functions |
 | **delay(milliseconds)** | Implements a platform-independent delay using clock() from <time.h>. |
