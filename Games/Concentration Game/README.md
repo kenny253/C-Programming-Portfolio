@@ -31,8 +31,8 @@ This version represents an improvement in modularity, portability, and robust in
 
 // Key Features of v2
 
-|------|-------------|
 | **Modular Design** | The game logic is cleanly separated into reusable functions |
+|------|-------------|
 | **delay(milliseconds)** | Implements a platform-independent delay using clock() from <time.h>. |
 | **clear_screen()** | Clears the console screen (using system("cls") or system("clear")). |
 | **clear_input_buffer()** | Ensures stable input handling by clearing residual characters from the input buffer. |
