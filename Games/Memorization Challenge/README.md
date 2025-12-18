@@ -10,10 +10,10 @@ This project contains two distinct versions of a console-based memory game writt
 
 // Key Features of v1
 
-**Fixed Difficulty**: Challenges the user with a set sequence of 3 numbers between 0 and 99.
-**Procedural Design**: All core game logic, from random number generation to answer validation, is handled directly within the `main` function.
-**Time-Based Concentration**: Implements a 3-second delay using a `do-while` loop and the `time.h` library to control the memorization window.
-**Console Control**: Utilizes `system("cls")` to clear the screen after the delay to ensure the numbers are hidden during the recall phase.
+- **Fixed Difficulty**: Challenges the user with a set sequence of 3 numbers between 0 and 99.
+- **Procedural Design**: All core game logic, from random number generation to answer validation, is handled directly within the `main` function.
+- **Time-Based Concentration**: Implements a 3-second delay using a `do-while` loop and the `time.h` library to control the memorization window.
+- **Console Control**: Utilizes `system("cls")` to clear the screen after the delay to ensure the numbers are hidden during the recall phase.
 
 ---
 
