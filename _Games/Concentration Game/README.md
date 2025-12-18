@@ -16,8 +16,9 @@ Difficulty Tiers: Offers three fixed difficulty levels:
 
 - **Hard**: 5 digits in 2 seconds
 
-| Procedural Design |  All core game logic and level implementation are handled directly within the main function using nested switch and while statements. |
+| DESIGN | FUNCTION |
 |------|--------------| 
+| Procedural Design |  All core game logic and level implementation are handled directly within the main function using nested switch and while statements. |
 | **Platform Dependency** | This version utilizes the Windows-specific Sleep() function from the <windows.h> library for time delays, making it less portable to Linux or macOS without modification. |
 | **Score Tracking** | Tracks correct and incorrect answers across rounds. |
 

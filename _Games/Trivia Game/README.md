@@ -10,10 +10,10 @@ This project contains two distinct versions of a console-based trivia game writt
 
 // Key Features of v1
 
-**Category Selection**: Allows users to choose between Sports, Geography, and Science categories using a standard switch-case menu.
-**Global State Management**: Utilizes global variables to track "correct" and "incorrect" scores across different function calls.
-**Procedural Functionality**: Each category is handled by a dedicated function (e.g., `sportquestions`) containing hard-coded questions and answers.
-**Platform-Specific Commands**: Employs Windows-specific headers like `<windows.h>` for screen clearing (`system("cls")`) and execution pauses (`Sleep`).
+- **Category Selection**: Allows users to choose between Sports, Geography, and Science categories using a standard switch-case menu.
+- **Global State Management**: Utilizes global variables to track "correct" and "incorrect" scores across different function calls.
+- **Procedural Functionality**: Each category is handled by a dedicated function (e.g., `sportquestions`) containing hard-coded questions and answers.
+- **Platform-Specific Commands**: Employs Windows-specific headers like `<windows.h>` for screen clearing (`system("cls")`) and execution pauses (`Sleep`).
 
 ---
 
@@ -23,11 +23,11 @@ This project contains two distinct versions of a console-based trivia game writt
 
 // Key Features of v2
 
-**Struct-Based Database**: Implements a `Question` struct to store categories, question text, multiple-choice options, and correct indices in a centralized database array.
-**Modular Quiz Engine**: Features a generalized `run_category_quiz` function that dynamically filters and displays questions based on the user's selected category.
-**Robust Input Handling**: Includes a `clear_input_buffer` utility to prevent menu skipping and handle invalid non-numeric inputs gracefully.
-**Dynamic Results Display**: Replaces static functions with a unified logic flow that calculates scores and displays final totals upon exiting.
-**Scalability**: The database-driven approach allows for new questions or categories to be added simply by updating the array, without writing new functions.
+- **Struct-Based Database**: Implements a `Question` struct to store categories, question text, multiple-choice options, and correct indices in a centralized database array.
+- **Modular Quiz Engine**: Features a generalized `run_category_quiz` function that dynamically filters and displays questions based on the user's selected category.
+- **Robust Input Handling**: Includes a `clear_input_buffer` utility to prevent menu skipping and handle invalid non-numeric inputs gracefully.
+- **Dynamic Results Display**: Replaces static functions with a unified logic flow that calculates scores and displays final totals upon exiting.
+- **Scalability**: The database-driven approach allows for new questions or categories to be added simply by updating the array, without writing new functions.
 
 ---
 
@@ -45,7 +45,7 @@ This project contains two distinct versions of a console-based trivia game writt
 // Compilation and Usage
 
 // Requirements
-* A standard C compiler (e.g., GCC) and a Windows environment (for `<windows.h>` support).
+A standard C compiler (e.g., GCC) and a Windows environment (for `<windows.h>` support).
 
 // Compilation
 To compile the advanced version (v2), use the following command:

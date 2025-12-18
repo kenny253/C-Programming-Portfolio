@@ -60,5 +60,5 @@ To compile any program (e.g., Memorization Challenge v2), use:
 
 // Portfolio Statement
 
-Although am still a beginner:
+- Although am still a beginner:
 As a developer, I believe that software should be both efficient and maintainable. This portfolio reflects my journey in mastering the C language, starting with the basic syntax and advancing toward professional software design patterns. Each "Version 2" update represents my commitment to code quality, emphasizing the importance of functional decomposition, documentation, and creating a seamless interface for the end-user.

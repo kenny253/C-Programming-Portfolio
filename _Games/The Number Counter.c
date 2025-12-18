@@ -1,3 +1,7 @@
+/*A simple number counting program that works by asking the user for a number to start counting from, where to end,
+and the amount of increments the program must make after each count*/
+
+
 #include <stdio.h>
 
 int main(void)
