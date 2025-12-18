@@ -16,8 +16,9 @@ Difficulty Tiers: Offers three fixed difficulty levels:
 
 - **Hard**: 5 digits in 2 seconds
 
-| Procedural Design |  All core game logic and level implementation are handled directly within the main function using nested switch and while statements. |
+| DESIGN | FUNCTION|
 |------|--------------| 
+| Procedural Design |  All core game logic and level implementation are handled directly within the main function using nested switch and while statements. |
 | **Platform Dependency** | This version utilizes the Windows-specific Sleep() function from the <windows.h> library for time delays, making it less portable to Linux or macOS without modification. |
 | **Score Tracking** | Tracks correct and incorrect answers across rounds. |
 
@@ -31,8 +32,9 @@ This version represents an improvement in modularity, portability, and robust in
 
 // Key Features of v2
 
-| **Modular Design** | The game logic is cleanly separated into reusable functions |
+| DESIGN | FUNCTION |
 |------|-------------|
+| **Modular Design** | The game logic is cleanly separated into reusable functions |
 | **delay(milliseconds)** | Implements a platform-independent delay using clock() from <time.h>. |
 | **clear_screen()** | Clears the console screen (using system("cls") or system("clear")). |
 | **clear_input_buffer()** | Ensures stable input handling by clearing residual characters from the input buffer. |
