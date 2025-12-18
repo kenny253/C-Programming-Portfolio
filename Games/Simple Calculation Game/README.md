@@ -10,10 +10,10 @@ This project contains two distinct versions of a console-based arithmetic quiz p
 
 // Key Features of v1
 
-**Fixed Operation**: Exclusively generates multiplication problems.
-**Procedural Logic**: All game operations, including randomization, user input, and score tracking, are contained entirely within the `main` function.
-**Basic Randomization**: Generates operands between 0 and 9 to keep the difficulty consistent.
-**Session Scoring**: Tracks the total number of correct and incorrect answers for a single session and displays the final tally upon completion.
+- **Fixed Operation**: Exclusively generates multiplication problems.
+- **Procedural Logic**: All game operations, including randomization, user input, and score tracking, are contained entirely within the `main` function.
+- **Basic Randomization**: Generates operands between 0 and 9 to keep the difficulty consistent.
+- **Session Scoring**: Tracks the total number of correct and incorrect answers for a single session and displays the final tally upon completion.
 
 ---
 
@@ -23,7 +23,7 @@ This project contains two distinct versions of a console-based arithmetic quiz p
 
 // Key Features of v2
 
-**Modular Architecture**: The codebase is organized into specialized functions such as `run_quiz_session()`, `run_single_question()`, and `init_game()`, following professional software engineering practices.
+* **Modular Architecture**: The codebase is organized into specialized functions such as `run_quiz_session()`, `run_single_question()`, and `init_game()`, following professional software engineering practices.
 **Expanded Operations**: Introduces an `enum` to handle multiple operations, including addition, subtraction (with non-negative result logic), and multiplication.
 **Persistent High Scores**: Implements File I/O to save and retrieve the user's best score (`math_quiz_score.txt`), allowing for progress tracking across different play sessions.
 **Defensive Programming**: Utilizes advanced input handling to clear the buffer (`while (getchar() != '\n');`), preventing program crashes from invalid non-numeric user input.
