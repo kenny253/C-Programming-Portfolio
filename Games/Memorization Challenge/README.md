@@ -23,11 +23,11 @@ This project contains two distinct versions of a console-based memory game writt
 
 // Key Features of v2
 
-**Modular Design**: The program logic is refactored into specialized, reusable functions such as `init_game()`, `get_game_length()`, `run_game()`, and `custom_sleep()`.
-**Difficulty Tiers**: Offers user-selectable difficulty levels: Easy (3 numbers), Medium (4 numbers), and Hard (5 numbers).
-**Array Management**: Utilizes arrays (`correct_sequence` and `user_response`) to handle the sequence dynamically based on the chosen difficulty.
-**Input Buffer Management**: Implements a clearing mechanism (`while (getchar() != '\n');`) to ensure stable input handling and prevent errors from residual characters.
-**Enhanced Portability**: Uses standard C libraries and custom timing functions to work across a wider range of environments without relying on OS-specific headers.
+- **Modular Design**: The program logic is refactored into specialized, reusable functions such as `init_game()`, `get_game_length()`, `run_game()`, and `custom_sleep()`.
+- **Difficulty Tiers**: Offers user-selectable difficulty levels: Easy (3 numbers), Medium (4 numbers), and Hard (5 numbers).
+- **Array Management**: Utilizes arrays (`correct_sequence` and `user_response`) to handle the sequence dynamically based on the chosen difficulty.
+- **Input Buffer Management**: Implements a clearing mechanism (`while (getchar() != '\n');`) to ensure stable input handling and prevent errors from residual characters.
+- **Enhanced Portability**: Uses standard C libraries and custom timing functions to work across a wider range of environments without relying on OS-specific headers.
 
 ---
 
