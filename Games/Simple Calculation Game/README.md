@@ -24,10 +24,10 @@ This project contains two distinct versions of a console-based arithmetic quiz p
 // Key Features of v2
 
 * **Modular Architecture**: The codebase is organized into specialized functions such as `run_quiz_session()`, `run_single_question()`, and `init_game()`, following professional software engineering practices.
-**Expanded Operations**: Introduces an `enum` to handle multiple operations, including addition, subtraction (with non-negative result logic), and multiplication.
-**Persistent High Scores**: Implements File I/O to save and retrieve the user's best score (`math_quiz_score.txt`), allowing for progress tracking across different play sessions.
-**Defensive Programming**: Utilizes advanced input handling to clear the buffer (`while (getchar() != '\n');`), preventing program crashes from invalid non-numeric user input.
-**Dynamic Feedback**: Provides real-time percentage-based scoring and recognizes when a new personal record is achieved.
+- **Expanded Operations**: Introduces an `enum` to handle multiple operations, including addition, subtraction (with non-negative result logic), and multiplication.
+- **Persistent High Scores**: Implements File I/O to save and retrieve the user's best score (`math_quiz_score.txt`), allowing for progress tracking across different play sessions.
+- **Defensive Programming**: Utilizes advanced input handling to clear the buffer (`while (getchar() != '\n');`), preventing program crashes from invalid non-numeric user input.
+- **Dynamic Feedback**: Provides real-time percentage-based scoring and recognizes when a new personal record is achieved.
 
 ---
 
